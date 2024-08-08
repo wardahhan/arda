@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration - Jurusan di SMK</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="java.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="LOGO.png" alt="Logo SMKN 1 Purwosari" class="logo">
+        <h1>Jurusan di SMKN 1 PURWOSARI</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="registration.html">Registration</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Registration Form</h2>
+        <div class="form-container">
+            <form id="registrationForm">
+                <label for="name">Nama:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="phone">Telepon:</label>
+                <input type="tel" id="phone" name="phone" required>
+                
+                <label for="course">Jurusan yang ingin dituju:</label>
+                <select id="course" name="course" required>
+                    <option value="" disabled selected>Pilih Jurusan</option>
+                    <option value="tkj">Teknik Komputer dan Jaringan</option>
+                    <option value="rpl">Rekayasa Perangkat Lunak</option>
+                    <option value="dkv">Desain Komunikasi Visual</option>
+                    <option value="mkt">Mekatronika</option>
+                    <option value="aphp">Agribisnis Pengolahan Hasil Pertanian</option>
+                    <option value="atph">Agribisnis Tanaman Pangan dan Hortikultura</option>
+                    <option value="tkr">Teknik Kendaraan Ringan</option>
+                    <option value="tbkr">Teknik Bodi Kendaraan Ringan</option>
+                    <option value="tpm">Teknik Pemesinan</option>
+                    <option value="tl">Teknik Pengelasan</option>
+                </select>
+                
+                <button type="submit">Daftar</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Jurusan di SMKN 1 Purwosari</p>
+    </footer>
+</body>
+</html>
